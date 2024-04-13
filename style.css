@@ -1,0 +1,139 @@
+/* Reset CSS para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #e74c3c; /* Vermelho */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos das seções */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #e74c3c; /* Vermelho */
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333; /* Cinza escuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Estilos do menu de hambúrgueres */
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    display: block;
+    font-size: 18px;
+    color: #e74c3c; /* Vermelho */
+}
+/* Estilos para a seção de contato */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #e74c3c; /* Vermelho */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+}
